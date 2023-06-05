@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:icon="@drawable/menu_logo"
+            android:title="Przedmioty"
+            app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/PierwszyPrzedmiot"
+                android:title="Uczeń" />
+            <item
+                android:id="@+id/DrugiPrzedmiot"
+                android:title="Oceny" />
+        </menu>
+    </item>
+</menu>
